@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="craze.music.Player">
+
+    <TextView
+        android:id="@+id/SongView"
+        android:textColor="@color/txt"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_width="323dp"
+        android:layout_height="78dp"
+        android:text="TextView"
+
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.094"
+        tools:layout_editor_absoluteX="64dp"
+        app:layout_constraintHorizontal_bias="0.421" />
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:text="Play"
+        android:textColor="@color/txt"
+        android:background="@color/t"
+        android:layout_marginRight="8dp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <Button
+        android:id="@+id/Stop"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:textStyle="bold"
+        android:background="@color/w"
+        android:text="Stop"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.023" />
+</android.support.constraint.ConstraintLayout>
